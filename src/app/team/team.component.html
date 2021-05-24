@@ -1,0 +1,31 @@
+<div class="squad">
+
+    <img width="100%" src="assets/data/team.jpg">
+    <div class="squad-background">
+    <h3>   Bramkarze:</h3>
+    <table class="tab" style="min-width: 30%; " *ngFor = "let player of golies">
+        <tr>
+            <td style="width: 10%; text-align: right; " *ngIf = "player.number > 0; else elseBlock">{{player.number}}.</td><td style=" width:90%;">{{player.name}} {{player.surname}}</td >
+         </tr>
+     </table>
+    <h3>    Obrońcy:</h3>
+    <table class="tab" style="min-width: 30%; " *ngFor = "let player of defenders" >
+        <tr>
+            <td style="width: 10%; text-align: right; ">{{player.number}}.</td><td style=" width:90%;">{{player.name}} {{player.surname}}</td >
+        </tr>
+     </table>
+    <h3>  Pomocnicy:</h3>
+    <table class="tab" style="min-width: 30%; " *ngFor = "let player of midfielders">
+        <tr>
+            <td style="width: 10%; text-align: right; ">{{player.number}}.</td><td style=" width:90%;">{{player.name}} {{player.surname}}</td >
+        </tr>
+     </table>
+    <h3>  Napastnicy:</h3>
+    <table class="tab" style="min-width: 30%; " *ngFor = "let player of strikers">
+        <tr>
+            <td style="width: 10%; text-align: right; ">{{player.number}}.</td><td style=" width:90%;">{{player.name}} {{player.surname}}</td >
+        </tr>
+     </table>
+</div>
+</div>
+<ng-template #elseBlock><td></td> </ng-template>

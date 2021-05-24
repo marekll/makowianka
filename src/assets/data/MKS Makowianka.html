@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:4200/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>MKS Makowianka</title>
+  <!--<base href="/">--><base href=".">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="http://localhost:4200/favicon.ico">
+<style>/* You can add global styles to this file, and also import other style files */
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9zdHlsZXMuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLDhFQUE4RSIsImZpbGUiOiJzcmMvc3R5bGVzLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIFlvdSBjYW4gYWRkIGdsb2JhbCBzdHlsZXMgdG8gdGhpcyBmaWxlLCBhbmQgYWxzbyBpbXBvcnQgb3RoZXIgc3R5bGUgZmlsZXMgKi9cbiJdfQ== */</style><style>[_nghost-llh-c24] {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+  }
+
+  h1[_ngcontent-llh-c24], h2[_ngcontent-llh-c24], h3[_ngcontent-llh-c24], h4[_ngcontent-llh-c24], h5[_ngcontent-llh-c24], h6[_ngcontent-llh-c24] {
+    margin: 8px 0;
+  }
+
+  p[_ngcontent-llh-c24] {
+    margin: 0;
+  }
+
+  .spacer[_ngcontent-llh-c24] {
+    -webkit-box-flex: 1;
+            flex: 1;
+}
+
+  .sponsors[_ngcontent-llh-c24]{
+        background-image: url("background.jpg");
+        background-size: cover;
+        display: grid;
+        
+        text-align: center;
+        width: 100%;
+        
+        padding: 0 0 0;
+        height: 20vh;
+        margin: auto auto auto;
+        grid-template-columns: 20% 60% 20%;
+        z-index: -1;
+      
+
+    }
+
+  .sponsors[_ngcontent-llh-c24]   img[_ngcontent-llh-c24]{
+        
+        
+        
+        
+        max-width: 100%;
+        max-height: 100%;
+       
+        
+    }
+
+  @supports (-ms-ime-align:auto) {
+      .sponsors[_ngcontent-llh-c24] {
+          display: inherit;
+      }
+  }
+
+  .toolbar[_ngcontent-llh-c24] {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    margin: 0 0 0;
+    padding: 0 0 0 ;
+    width: 100%;
+    font-size: 14px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+            align-items: center;
+    background-color: white;
+    color: #058160;
+    font-weight: 600;
+    z-index: 1;
+    
+    
+
+  }
+
+  .toolbar[_ngcontent-llh-c24]   img[_ngcontent-llh-c24] {
+    margin: 0 16px;
+
+  }
+
+  .toolbar[_ngcontent-llh-c24]   #facebook-logo[_ngcontent-llh-c24] {
+    height: 30px;
+  }
+
+  .toolbar[_ngcontent-llh-c24]   #facebook-logo[_ngcontent-llh-c24]:hover {
+    opacity: 0.7;
+  }
+
+  .content[_ngcontent-llh-c24] {
+    display: -webkit-box;
+    display: flex;
+    margin: 52px auto auto;
+    padding: 0 0px;
+    max-width: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    -webkit-box-align: center;
+            align-items: center;
+    background: transparent;
+
+  }
+
+  .zth[_ngcontent-llh-c24]{
+    display: grid;
+    
+    
+    vertical-align: top;
+    
+  }
+
+  .win[_ngcontent-llh-c24] {
+
+    
+    margin: auto auto auto;
+    
+    max-width: auto;
+    
+    -webkit-box-align: center;
+    
+            align-items: center;
+    display: -webkit-box;
+    display: flex;
+    border-radius: 0px;
+    background-color:#058160;
+    max-width: 100%;
+    width: 100%;
+    min-height:   100px;
+    border-radius: 6px;
+    padding-top: 20px;
+    margin-top: 1px;
+    overflow: hidden;
+    align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
+
+  }
+
+  .background-image[_ngcontent-llh-c24] {
+  
+    position: fixed;
+    left: 0;
+    right: 0;
+   
+    z-index: -1;
+    background-position:initial;
+    display: block;
+    background-image: url("background.jpg");
+    width: 100%;
+    height: 100%;
+    
+    
+    -webkit-filter: blur(5px);
+    
+    
+            filter: blur(5px);
+    opacity:0.5;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+  svg.material-icons[_ngcontent-llh-c24] {
+    height: 24px;
+    width: auto;
+  }
+
+  svg.material-icons[_ngcontent-llh-c24]:not(:last-child) {
+    margin-right: 8px;
+  }
+
+  .card[_ngcontent-llh-c24]   svg.material-icons[_ngcontent-llh-c24]   path[_ngcontent-llh-c24] {
+    fill: #888;
+  }
+
+  .card-container[_ngcontent-llh-c24] {
+    
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+            justify-content: center;
+    margin-top: 2px;
+    -webkit-box-align: start;
+    align-self: start;
+    background-color: white;
+    
+  }
+
+  .menuu[_ngcontent-llh-c24]{
+    
+    top: 5vh;
+    left: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    height: 95vh;
+    
+    
+    font-size: 14px;
+    grid-row: 1/2;
+    
+    background-color: white;
+    color: #058160;
+    overflow: hidden;
+    z-index: 1;
+    
+    
+  }
+
+  .card[_ngcontent-llh-c24] {
+    
+    background-color: transparent;
+    height: 100%;
+    margin: 0 0px 0px;
+    
+    display: -webkit-box;
+    
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+    color: #058160;
+    
+    
+  }
+
+  .card-container[_ngcontent-llh-c24]   .card[_ngcontent-llh-c24]:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .card.card-big[_ngcontent-llh-c24]{
+      
+    min-height: 30px;
+    width: 100%;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    z-index: 0;
+    border-style: none none none solid  ;
+    height: 13vh;
+    background-color: rgb(240, 240, 240);
+        
+  }
+
+  .card.card-small[_ngcontent-llh-c24] {
+    min-height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    
+    
+  }
+
+  .card.card-small.menu[_ngcontent-llh-c24] {
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 5px 5px 12px;
+    background-color: #058160;
+    color: white;
+    border-radius: 4px;
+  }
+
+  .card-container[_ngcontent-llh-c24]   .card[_ngcontent-llh-c24]:not(.highlight-card) {
+    cursor: pointer;
+    
+  }
+
+  .card-container[_ngcontent-llh-c24]   .card[_ngcontent-llh-c24]:not(.highlight-card):hover {
+    -webkit-transform: translateY(-3px);
+            transform: translateY(-3px);
+    box-shadow: 0 4px 17px rgba(black, 0.35);
+    
+  }
+
+  .card-container[_ngcontent-llh-c24]   .card[_ngcontent-llh-c24]:not(.highlight-card):hover   .material-icons[_ngcontent-llh-c24]   path[_ngcontent-llh-c24] {
+    fill: rgb(105, 103, 103);
+    
+  }
+
+  .card.highlight-card[_ngcontent-llh-c24] {
+    background-color: #1976d2;
+    color: rgb(228, 247, 228);
+    font-weight: 600;
+    border: none;
+    width: auto;
+    min-width: 30%;
+    
+    position: relative;
+    
+  }
+
+  .card.card.highlight-card[_ngcontent-llh-c24]   span[_ngcontent-llh-c24] {
+    margin-left: 60px;
+    
+  }
+
+  a[_ngcontent-llh-c24], a[_ngcontent-llh-c24]:visited, a[_ngcontent-llh-c24]:hover {
+    color: #1976d2;
+    text-decoration: none;
+  }
+
+  a[_ngcontent-llh-c24]:hover {
+    color: #125699;
+  }
+
+  .gallery[_ngcontent-llh-c24]{
+    display: block;
+    -webkit-box-align: center;
+            align-items: center;
+    position: relative;
+    align-content: center;
+    }
+
+  footer[_ngcontent-llh-c24] {
+    margin-top: 8px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+            align-items: center;
+    line-height: 20px;
+  }
+
+  footer[_ngcontent-llh-c24]   a[_ngcontent-llh-c24] {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+            align-items: center;
+  }
+
+  .article[_ngcontent-llh-c24]{
+      width: 100%;
+      
+  }
+
+  .article-boxes[_ngcontent-llh-c24]{
+      width: 100%;
+  }
+
+  .list.team[_ngcontent-llh-c24]{
+      width: 100%;
+  }
+
+  .contact[_ngcontent-llh-c24]{
+      width: 100%;
+      background-color: white; 
+      
+      padding: 10px 10px 10px; 
+      opacity: 0.9;
+  }
+
+  .col-box[_ngcontent-llh-c24]{
+      width: 100%;
+  }
+
+  .mainP[_ngcontent-llh-c24]{
+     width: 100%;
+     margin: 0 0 0 0 ;
+     padding: 0 0 0 0;
+  }
+
+  @media screen  {
+    
+    
+
+    .card.highlight-card[_ngcontent-llh-c24]   span[_ngcontent-llh-c24] {
+      margin-left: 72px;
+    }
+
+  }
+
+  @media only screen and (min-width: 700px) and (min-height: 400px) {
+      .card[_ngcontent-llh-c24]:not(.highlight-card) {
+      
+        margin: 8px 0;
+      }
+      .sponsors[_ngcontent-llh-c24]   img[_ngcontent-llh-c24] {
+        max-width: 100%;
+        max-height: 100%;
+        
+        height: 100%; 
+      }
+      .mainP[_ngcontent-llh-c24]{
+        width: 80%;
+      }
+        .contact[_ngcontent-llh-c24]{
+            width: 80%;
+        }
+        .list.team[_ngcontent-llh-c24]{
+            width: 70%;
+        }
+        .article[_ngcontent-llh-c24]{
+            width: 700px;
+            padding-top: 10px;
+            
+        }
+        .article-boxes[_ngcontent-llh-c24]{
+            width: 80%;
+            
+        }
+        .toolbar[_ngcontent-llh-c24]{
+            height: 5vh;
+        }
+        .toolbar[_ngcontent-llh-c24]   #facebook-logo[_ngcontent-llh-c24] {
+            height: 3.75vh;
+          }
+        .col-box[_ngcontent-llh-c24]{
+            width: 50%;
+            float: left;
+            
+            
+            overflow:hidden !important;
+            text-overflow: ellipsis;
+        }
+        .card-container[_ngcontent-llh-c24] {
+            display: -webkit-box;
+            display: flex;
+            flex-wrap: wrap;
+            -webkit-box-pack: center;
+                    justify-content: center;
+            margin-top: 2px;
+            -webkit-box-align: end;
+            
+        }
+        .card.card-small[_ngcontent-llh-c24] {
+            min-height: 5px;
+            padding-left: 5px;
+            padding-right: 5px;
+            margin: 5px 5px 12px;
+            padding-top: 5px;
+        }
+        
+        .gallery[_ngcontent-llh-c24]{
+            display: inline;
+            
+        }
+        .zth[_ngcontent-llh-c24]{
+            
+            grid-column: 2;
+            grid-template-columns: 10% 90%;
+            
+            
+            
+        }
+        .card.card-big[_ngcontent-llh-c24]{
+          height: 30px;
+          background-color: white;
+        }
+        
+        
+        
+    }
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkNBQUM7SUFDRywwSkFBMEo7SUFDMUosZUFBZTtJQUNmLFdBQVc7SUFDWCxtQ0FBbUM7SUFDbkMsa0NBQWtDOztFQUVwQzs7RUFFQTs7Ozs7O0lBTUUsYUFBYTtFQUNmOztFQUVBO0lBQ0UsU0FBUztFQUNYOztFQUVBO0lBQ0UsbUJBQU87WUFBUCxPQUFPO0FBQ1g7O0VBQ0k7UUFDSSx1Q0FBdUM7UUFDdkMsc0JBQXNCO1FBQ3RCLGFBQWE7O1FBRWIsa0JBQWtCO1FBQ2xCLFdBQVc7O1FBRVgsY0FBYztRQUNkLFlBQVk7UUFDWixzQkFBc0I7UUFDdEIsa0NBQWtDO1FBQ2xDLFdBQVc7OztJQUdmOztFQUNBOzs7OztRQUtJLGVBQWU7UUFDZixnQkFBZ0I7OztJQUdwQjs7RUFDQTtNQUNFO1VBQ0ksZ0JBQWdCO01BQ3BCO0VBQ0o7O0VBQ0E7SUFDRSx3QkFBZ0I7SUFBaEIsZ0JBQWdCO0lBQ2hCLE1BQU07SUFDTixPQUFPO0lBQ1AsUUFBUTtJQUNSLFlBQVk7SUFDWixhQUFhO0lBQ2IsZUFBZTtJQUNmLFdBQVc7SUFDWCxlQUFlO0lBQ2Ysb0JBQWE7SUFBYixhQUFhO0lBQ2IseUJBQW1CO1lBQW5CLG1CQUFtQjtJQUNuQix1QkFBdUI7SUFDdkIsY0FBYztJQUNkLGdCQUFnQjtJQUNoQixVQUFVOzs7O0VBSVo7O0VBRUE7SUFDRSxjQUFjOztFQUVoQjs7RUFFQTtJQUNFLFlBQVk7RUFDZDs7RUFFQTtJQUNFLFlBQVk7RUFDZDs7RUFFQTtJQUNFLG9CQUFhO0lBQWIsYUFBYTtJQUNiLHNCQUFzQjtJQUN0QixjQUFjO0lBQ2QsZUFBZTtJQUNmLDRCQUFzQjtJQUF0Qiw2QkFBc0I7WUFBdEIsc0JBQXNCO0lBQ3RCLHlCQUFtQjtZQUFuQixtQkFBbUI7SUFDbkIsdUJBQXVCOztFQUV6Qjs7RUFDQTtJQUNFLGFBQWE7OztJQUdiLG1CQUFtQjs7RUFFckI7O0VBQ0E7OztJQUdF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LFlBQVk7RUFDaEI7O0VBQ0E7TUFDSSxXQUFXO0VBQ2Y7O0VBQ0E7S0FDRyxXQUFXO0tBQ1gsZ0JBQWdCO0tBQ2hCLGdCQUFnQjtFQUNuQjs7RUFDQTs7OztJQUlFO01BQ0UsaUJBQWlCO0lBQ25COztFQUVGOztFQUVFO01BQ0U7O1FBRUUsYUFBYTtNQUNmO01BQ0E7UUFDRSxlQUFlO1FBQ2YsZ0JBQWdCOztRQUVoQixZQUFZO01BQ2Q7TUFDQTtRQUNFLFVBQVU7TUFDWjtRQUNFO1lBQ0ksVUFBVTtRQUNkO1FBQ0E7WUFDSSxVQUFVO1FBQ2Q7UUFDQTtZQUNJLFlBQVk7WUFDWixpQkFBaUI7O1FBRXJCO1FBQ0E7WUFDSSxVQUFVOztRQUVkO1FBQ0E7WUFDSSxXQUFXO1FBQ2Y7UUFDQTtZQUNJLGNBQWM7VUFDaEI7UUFDRjtZQUNJLFVBQVU7WUFDVixXQUFXOzs7WUFHWCwwQkFBMEI7WUFDMUIsdUJBQXVCO1FBQzNCO1FBQ0E7WUFDSSxvQkFBYTtZQUFiLGFBQWE7WUFDYixlQUFlO1lBQ2Ysd0JBQXVCO29CQUF2Qix1QkFBdUI7WUFDdkIsZUFBZTtZQUNmLHNCQUFzQjs7UUFFMUI7UUFDQTtZQUNJLGVBQWU7WUFDZixpQkFBaUI7WUFDakIsa0JBQWtCO1lBQ2xCLG9CQUFvQjtZQUNwQixnQkFBZ0I7UUFDcEI7O1FBRUE7WUFDSSxlQUFlOztRQUVuQjtRQUNBOztZQUVJLGNBQWM7WUFDZCw4QkFBOEI7Ozs7UUFJbEM7UUFDQTtVQUNFLFlBQVk7VUFDWix1QkFBdUI7UUFDekI7Ozs7SUFJSiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiIDpob3N0IHtcclxuICAgIGZvbnQtZmFtaWx5OiAtYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsIFwiU2Vnb2UgVUlcIiwgUm9ib3RvLCBIZWx2ZXRpY2EsIEFyaWFsLCBzYW5zLXNlcmlmLCBcIkFwcGxlIENvbG9yIEVtb2ppXCIsIFwiU2Vnb2UgVUkgRW1vamlcIiwgXCJTZWdvZSBVSSBTeW1ib2xcIjtcclxuICAgIGZvbnQtc2l6ZTogMTRweDtcclxuICAgIGNvbG9yOiAjMzMzO1xyXG4gICAgLXdlYmtpdC1mb250LXNtb290aGluZzogYW50aWFsaWFzZWQ7XHJcbiAgICAtbW96LW9zeC1mb250LXNtb290aGluZzogZ3JheXNjYWxlO1xyXG4gICAgXHJcbiAgfVxyXG5cclxuICBoMSxcclxuICBoMixcclxuICBoMyxcclxuICBoNCxcclxuICBoNSxcclxuICBoNiB7XHJcbiAgICBtYXJnaW46IDhweCAwO1xyXG4gIH1cclxuXHJcbiAgcCB7XHJcbiAgICBtYXJnaW46IDA7XHJcbiAgfVxyXG5cclxuICAuc3BhY2VyIHtcclxuICAgIGZsZXg6IDE7XHJcbn1cclxuICAgIC5zcG9uc29yc3tcclxuICAgICAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoXCJiYWNrZ3JvdW5kLmpwZ1wiKTtcclxuICAgICAgICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xyXG4gICAgICAgIGRpc3BsYXk6IGdyaWQ7XHJcbiAgICAgICAgXHJcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICAgIFxyXG4gICAgICAgIHBhZGRpbmc6IDAgMCAwO1xyXG4gICAgICAgIGhlaWdodDogMjB2aDtcclxuICAgICAgICBtYXJnaW46IGF1dG8gYXV0byBhdXRvO1xyXG4gICAgICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogMjAlIDYwJSAyMCU7XHJcbiAgICAgICAgei1pbmRleDogLTE7XHJcbiAgICAgIFxyXG5cclxuICAgIH1cclxuICAgIC5zcG9uc29ycyBpbWd7XHJcbiAgICAgICAgXHJcbiAgICAgICAgXHJcbiAgICAgICAgXHJcbiAgICAgICAgXHJcbiAgICAgICAgbWF4LXdpZHRoOiAxMDAlO1xyXG4gICAgICAgIG1heC1oZWlnaHQ6IDEwMCU7XHJcbiAgICAgICBcclxuICAgICAgICBcclxuICAgIH1cclxuICAgIEBzdXBwb3J0cyAoLW1zLWltZS1hbGlnbjphdXRvKSB7XHJcbiAgICAgIC5zcG9uc29ycyB7XHJcbiAgICAgICAgICBkaXNwbGF5OiBpbmhlcml0O1xyXG4gICAgICB9XHJcbiAgfVxyXG4gIC50b29sYmFyIHtcclxuICAgIHBvc2l0aW9uOiBzdGlja3k7XHJcbiAgICB0b3A6IDA7XHJcbiAgICBsZWZ0OiAwO1xyXG4gICAgcmlnaHQ6IDA7XHJcbiAgICBoZWlnaHQ6IDQwcHg7XHJcbiAgICBtYXJnaW46IDAgMCAwO1xyXG4gICAgcGFkZGluZzogMCAwIDAgO1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbiAgICBmb250LXNpemU6IDE0cHg7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xyXG4gICAgY29sb3I6ICMwNTgxNjA7XHJcbiAgICBmb250LXdlaWdodDogNjAwO1xyXG4gICAgei1pbmRleDogMTtcclxuICAgIFxyXG4gICAgXHJcblxyXG4gIH1cclxuXHJcbiAgLnRvb2xiYXIgaW1nIHtcclxuICAgIG1hcmdpbjogMCAxNnB4O1xyXG5cclxuICB9XHJcblxyXG4gIC50b29sYmFyICNmYWNlYm9vay1sb2dvIHtcclxuICAgIGhlaWdodDogMzBweDtcclxuICB9XHJcblxyXG4gIC50b29sYmFyICNmYWNlYm9vay1sb2dvOmhvdmVyIHtcclxuICAgIG9wYWNpdHk6IDAuNztcclxuICB9XHJcblxyXG4gIC5jb250ZW50IHtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBtYXJnaW46IDUycHggYXV0byBhdXRvO1xyXG4gICAgcGFkZGluZzogMCAwcHg7XHJcbiAgICBtYXgtd2lkdGg6IGF1dG87XHJcbiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICAgIGJhY2tncm91bmQ6IHRyYW5zcGFyZW50O1xyXG5cclxuICB9XHJcbiAgLnp0aHtcclxuICAgIGRpc3BsYXk6IGdyaWQ7XHJcbiAgICBcclxuICAgIFxyXG4gICAgdmVydGljYWwtYWxpZ246IHRvcDtcclxuICAgIFxyXG4gIH1cclxuICAud2luIHtcclxuXHJcbiAgICBcclxuICAgIG1hcmdpbjogYXV0byBhdXRvIGF1dG87XHJcbiAgICBcclxuICAgIG1heC13aWR0aDogYXV0bztcclxuICAgIFxyXG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBib3JkZXItcmFkaXVzOiAwcHg7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiMwNTgxNjA7XHJcbiAgICBtYXgtd2lkdGg6IDEwMCU7XHJcbiAgICB3aWR0aDogMTAwJTtcclxuICAgIG1pbi1oZWlnaHQ6ICAgMTAwcHg7XHJcbiAgICBib3JkZXItcmFkaXVzOiA2cHg7XHJcbiAgICBwYWRkaW5nLXRvcDogMjBweDtcclxuICAgIG1hcmdpbi10b3A6IDFweDtcclxuICAgIG92ZXJmbG93OiBoaWRkZW47XHJcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcblxyXG4gIH1cclxuICBcclxuXHJcbiAgLmJhY2tncm91bmQtaW1hZ2Uge1xyXG4gIFxyXG4gICAgcG9zaXRpb246IGZpeGVkO1xyXG4gICAgbGVmdDogMDtcclxuICAgIHJpZ2h0OiAwO1xyXG4gICBcclxuICAgIHotaW5kZXg6IC0xO1xyXG4gICAgYmFja2dyb3VuZC1wb3NpdGlvbjppbml0aWFsO1xyXG4gICAgZGlzcGxheTogYmxvY2s7XHJcbiAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoXCJiYWNrZ3JvdW5kLmpwZ1wiKTtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgaGVpZ2h0OiAxMDAlO1xyXG4gICAgXHJcbiAgICBcclxuICAgIGZpbHRlcjogYmx1cig1cHgpO1xyXG4gICAgb3BhY2l0eTowLjU7XHJcbiAgICBiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0O1xyXG4gICAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcclxufVxyXG4gIHN2Zy5tYXRlcmlhbC1pY29ucyB7XHJcbiAgICBoZWlnaHQ6IDI0cHg7XHJcbiAgICB3aWR0aDogYXV0bztcclxuICB9XHJcblxyXG4gIHN2Zy5tYXRlcmlhbC1pY29uczpub3QoOmxhc3QtY2hpbGQpIHtcclxuICAgIG1hcmdpbi1yaWdodDogOHB4O1xyXG4gIH1cclxuXHJcbiAgLmNhcmQgc3ZnLm1hdGVyaWFsLWljb25zIHBhdGgge1xyXG4gICAgZmlsbDogIzg4ODtcclxuICB9XHJcbiAgICBcclxuICBcclxuICAuY2FyZC1jb250YWluZXIge1xyXG4gICAgXHJcbiAgICBmbGV4LXdyYXA6IHdyYXA7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgIG1hcmdpbi10b3A6IDJweDtcclxuICAgIC13ZWJraXQtYm94LWFsaWduOiBzdGFydDtcclxuICAgIGFsaWduLXNlbGY6IHN0YXJ0O1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XHJcbiAgICBcclxuICB9XHJcbiAgLm1lbnV1e1xyXG4gICAgXHJcbiAgICB0b3A6IDV2aDtcclxuICAgIGxlZnQ6IDA7XHJcbiAgICBwb3NpdGlvbjogc3RpY2t5O1xyXG4gICAgaGVpZ2h0OiA5NXZoO1xyXG4gICAgXHJcbiAgICBcclxuICAgIGZvbnQtc2l6ZTogMTRweDtcclxuICAgIGdyaWQtcm93OiAxLzI7XHJcbiAgICBcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xyXG4gICAgY29sb3I6ICMwNTgxNjA7XHJcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xyXG4gICAgei1pbmRleDogMTtcclxuICAgIFxyXG4gICAgXHJcbiAgfVxyXG4gIFxyXG4gIC5jYXJkIHtcclxuICAgIFxyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogdHJhbnNwYXJlbnQ7XHJcbiAgICBoZWlnaHQ6IDEwMCU7XHJcbiAgICBtYXJnaW46IDAgMHB4IDBweDtcclxuICAgIFxyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGZsZXgtZGlyZWN0aW9uOiByb3c7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICB0cmFuc2l0aW9uOiBhbGwgMC4ycyBlYXNlLWluLW91dDtcclxuICAgIGxpbmUtaGVpZ2h0OiAyNHB4O1xyXG4gICAgY29sb3I6ICMwNTgxNjA7XHJcbiAgICBcclxuICAgIFxyXG4gIH1cclxuXHJcbiAgLmNhcmQtY29udGFpbmVyIC5jYXJkOm5vdCg6bGFzdC1jaGlsZCkge1xyXG4gICAgbWFyZ2luLXJpZ2h0OiAwO1xyXG4gIH1cclxuICAuY2FyZC5jYXJkLWJpZ3tcclxuICAgICAgXHJcbiAgICBtaW4taGVpZ2h0OiAzMHB4O1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbiAgICBwYWRkaW5nOiAwIDAgMCAwO1xyXG4gICAgbWFyZ2luOiAwIDAgMCAwO1xyXG4gICAgei1pbmRleDogMDtcclxuICAgIGJvcmRlci1zdHlsZTogbm9uZSBub25lIG5vbmUgc29saWQgIDtcclxuICAgIGhlaWdodDogMTN2aDtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYigyNDAsIDI0MCwgMjQwKTtcclxuICAgICAgICBcclxuICB9XHJcbiAgLmNhcmQuY2FyZC1zbWFsbCB7XHJcbiAgICBtaW4taGVpZ2h0OiAzMHB4O1xyXG4gICAgcGFkZGluZy1sZWZ0OiA1cHg7XHJcbiAgICBwYWRkaW5nLXJpZ2h0OiA1cHg7XHJcbiAgICBcclxuICAgIFxyXG4gICAgXHJcbiAgfVxyXG4gIC5jYXJkLmNhcmQtc21hbGwubWVudSB7XHJcbiAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgICBwYWRkaW5nLWxlZnQ6IDVweDtcclxuICAgIHBhZGRpbmctcmlnaHQ6IDVweDtcclxuICAgIG1hcmdpbjogNXB4IDVweCAxMnB4O1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzA1ODE2MDtcclxuICAgIGNvbG9yOiB3aGl0ZTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDRweDtcclxuICB9XHJcblxyXG4gIC5jYXJkLWNvbnRhaW5lciAuY2FyZDpub3QoLmhpZ2hsaWdodC1jYXJkKSB7XHJcbiAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgICBcclxuICB9XHJcblxyXG4gIC5jYXJkLWNvbnRhaW5lciAuY2FyZDpub3QoLmhpZ2hsaWdodC1jYXJkKTpob3ZlciB7XHJcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTNweCk7XHJcbiAgICBib3gtc2hhZG93OiAwIDRweCAxN3B4IHJnYmEoYmxhY2ssIDAuMzUpO1xyXG4gICAgXHJcbiAgfVxyXG5cclxuICAuY2FyZC1jb250YWluZXIgLmNhcmQ6bm90KC5oaWdobGlnaHQtY2FyZCk6aG92ZXIgLm1hdGVyaWFsLWljb25zIHBhdGgge1xyXG4gICAgZmlsbDogcmdiKDEwNSwgMTAzLCAxMDMpO1xyXG4gICAgXHJcbiAgfVxyXG5cclxuICAuY2FyZC5oaWdobGlnaHQtY2FyZCB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMTk3NmQyO1xyXG4gICAgY29sb3I6IHJnYigyMjgsIDI0NywgMjI4KTtcclxuICAgIGZvbnQtd2VpZ2h0OiA2MDA7XHJcbiAgICBib3JkZXI6IG5vbmU7XHJcbiAgICB3aWR0aDogYXV0bztcclxuICAgIG1pbi13aWR0aDogMzAlO1xyXG4gICAgXHJcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgICBcclxuICB9XHJcblxyXG4gIC5jYXJkLmNhcmQuaGlnaGxpZ2h0LWNhcmQgc3BhbiB7XHJcbiAgICBtYXJnaW4tbGVmdDogNjBweDtcclxuICAgIFxyXG4gIH1cclxuXHJcbiAgXHJcblxyXG4gIGEsXHJcbiAgYTp2aXNpdGVkLFxyXG4gIGE6aG92ZXIge1xyXG4gICAgY29sb3I6ICMxOTc2ZDI7XHJcbiAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbiAgfVxyXG5cclxuICBhOmhvdmVyIHtcclxuICAgIGNvbG9yOiAjMTI1Njk5O1xyXG4gIH1cclxuXHJcbiBcclxuICBcclxuIFxyXG4gIFxyXG4gIC5nYWxsZXJ5e1xyXG4gICAgZGlzcGxheTogYmxvY2s7XHJcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gICAgYWxpZ24tY29udGVudDogY2VudGVyO1xyXG4gICAgfVxyXG4gIFxyXG5cclxuICBmb290ZXIge1xyXG4gICAgbWFyZ2luLXRvcDogOHB4O1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICBsaW5lLWhlaWdodDogMjBweDtcclxuICB9XHJcblxyXG4gIGZvb3RlciBhIHtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gIH1cclxuXHJcbiAgXHJcbiAgLmFydGljbGV7XHJcbiAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICBcclxuICB9XHJcbiAgLmFydGljbGUtYm94ZXN7XHJcbiAgICAgIHdpZHRoOiAxMDAlO1xyXG4gIH1cclxuICAubGlzdC50ZWFte1xyXG4gICAgICB3aWR0aDogMTAwJTtcclxuICB9XHJcbiAgLmNvbnRhY3R7XHJcbiAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTsgXHJcbiAgICAgIFxyXG4gICAgICBwYWRkaW5nOiAxMHB4IDEwcHggMTBweDsgXHJcbiAgICAgIG9wYWNpdHk6IDAuOTtcclxuICB9XHJcbiAgLmNvbC1ib3h7XHJcbiAgICAgIHdpZHRoOiAxMDAlO1xyXG4gIH1cclxuICAubWFpblB7XHJcbiAgICAgd2lkdGg6IDEwMCU7XHJcbiAgICAgbWFyZ2luOiAwIDAgMCAwIDtcclxuICAgICBwYWRkaW5nOiAwIDAgMCAwO1xyXG4gIH1cclxuICBAbWVkaWEgc2NyZWVuICB7XHJcbiAgICBcclxuICAgIFxyXG5cclxuICAgIC5jYXJkLmhpZ2hsaWdodC1jYXJkIHNwYW4ge1xyXG4gICAgICBtYXJnaW4tbGVmdDogNzJweDtcclxuICAgIH1cclxuXHJcbiAgfVxyXG4gICAgXHJcbiAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDcwMHB4KSBhbmQgKG1pbi1oZWlnaHQ6IDQwMHB4KSB7XHJcbiAgICAgIC5jYXJkOm5vdCguaGlnaGxpZ2h0LWNhcmQpIHtcclxuICAgICAgXHJcbiAgICAgICAgbWFyZ2luOiA4cHggMDtcclxuICAgICAgfVxyXG4gICAgICAuc3BvbnNvcnMgaW1nIHtcclxuICAgICAgICBtYXgtd2lkdGg6IDEwMCU7XHJcbiAgICAgICAgbWF4LWhlaWdodDogMTAwJTtcclxuICAgICAgICBcclxuICAgICAgICBoZWlnaHQ6IDEwMCU7IFxyXG4gICAgICB9XHJcbiAgICAgIC5tYWluUHtcclxuICAgICAgICB3aWR0aDogODAlO1xyXG4gICAgICB9XHJcbiAgICAgICAgLmNvbnRhY3R7XHJcbiAgICAgICAgICAgIHdpZHRoOiA4MCU7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIC5saXN0LnRlYW17XHJcbiAgICAgICAgICAgIHdpZHRoOiA3MCU7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIC5hcnRpY2xle1xyXG4gICAgICAgICAgICB3aWR0aDogNzAwcHg7XHJcbiAgICAgICAgICAgIHBhZGRpbmctdG9wOiAxMHB4O1xyXG4gICAgICAgICAgICBcclxuICAgICAgICB9XHJcbiAgICAgICAgLmFydGljbGUtYm94ZXN7XHJcbiAgICAgICAgICAgIHdpZHRoOiA4MCU7XHJcbiAgICAgICAgICAgIFxyXG4gICAgICAgIH1cclxuICAgICAgICAudG9vbGJhcntcclxuICAgICAgICAgICAgaGVpZ2h0OiA1dmg7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIC50b29sYmFyICNmYWNlYm9vay1sb2dvIHtcclxuICAgICAgICAgICAgaGVpZ2h0OiAzLjc1dmg7XHJcbiAgICAgICAgICB9XHJcbiAgICAgICAgLmNvbC1ib3h7XHJcbiAgICAgICAgICAgIHdpZHRoOiA1MCU7XHJcbiAgICAgICAgICAgIGZsb2F0OiBsZWZ0O1xyXG4gICAgICAgICAgICBcclxuICAgICAgICAgICAgXHJcbiAgICAgICAgICAgIG92ZXJmbG93OmhpZGRlbiAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgICB0ZXh0LW92ZXJmbG93OiBlbGxpcHNpcztcclxuICAgICAgICB9XHJcbiAgICAgICAgLmNhcmQtY29udGFpbmVyIHtcclxuICAgICAgICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgICAgICAgZmxleC13cmFwOiB3cmFwO1xyXG4gICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgICAgICAgICAgbWFyZ2luLXRvcDogMnB4O1xyXG4gICAgICAgICAgICAtd2Via2l0LWJveC1hbGlnbjogZW5kO1xyXG4gICAgICAgICAgICBcclxuICAgICAgICB9XHJcbiAgICAgICAgLmNhcmQuY2FyZC1zbWFsbCB7XHJcbiAgICAgICAgICAgIG1pbi1oZWlnaHQ6IDVweDtcclxuICAgICAgICAgICAgcGFkZGluZy1sZWZ0OiA1cHg7XHJcbiAgICAgICAgICAgIHBhZGRpbmctcmlnaHQ6IDVweDtcclxuICAgICAgICAgICAgbWFyZ2luOiA1cHggNXB4IDEycHg7XHJcbiAgICAgICAgICAgIHBhZGRpbmctdG9wOiA1cHg7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIFxyXG4gICAgICAgIC5nYWxsZXJ5e1xyXG4gICAgICAgICAgICBkaXNwbGF5OiBpbmxpbmU7XHJcbiAgICAgICAgICAgIFxyXG4gICAgICAgIH1cclxuICAgICAgICAuenRoe1xyXG4gICAgICAgICAgICBcclxuICAgICAgICAgICAgZ3JpZC1jb2x1bW46IDI7XHJcbiAgICAgICAgICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogMTAlIDkwJTtcclxuICAgICAgICAgICAgXHJcbiAgICAgICAgICAgIFxyXG4gICAgICAgICAgICBcclxuICAgICAgICB9XHJcbiAgICAgICAgLmNhcmQuY2FyZC1iaWd7XHJcbiAgICAgICAgICBoZWlnaHQ6IDMwcHg7XHJcbiAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcclxuICAgICAgICB9XHJcbiAgICAgICAgXHJcbiAgICAgICAgXHJcbiAgICAgICAgXHJcbiAgICB9Il19 */</style><style>[class*="col-"][_ngcontent-llh-c20]{
+    width: 100%;
+}
+@media only screen and (min-width: 1000px){
+    .col-1[_ngcontent-llh-c20] {width: 0.33%;  margin-right: 10px;}
+    .col-2[_ngcontent-llh-c20] {width: 55%;  margin-right: 10px;}
+    .col-3[_ngcontent-llh-c20] {width: 45%;}
+    
+    .row[_ngcontent-llh-c20] {display: -webkit-box;display: flex;}
+  
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbWFpbi1wYWdlL21haW4tcGFnZS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFDQTtJQUNJLFdBQVc7QUFDZjtBQUNBO0lBQ0ksUUFBUSxZQUFZLEdBQUcsa0JBQWtCLENBQUM7SUFDMUMsUUFBUSxVQUFVLEdBQUcsa0JBQWtCLENBQUM7SUFDeEMsUUFBUSxVQUFVLENBQUM7O0lBRW5CLE1BQU0sb0JBQWEsQ0FBYixhQUFhLENBQUM7O0FBRXhCIiwiZmlsZSI6InNyYy9hcHAvbWFpbi1wYWdlL21haW4tcGFnZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiXHJcbltjbGFzcyo9XCJjb2wtXCJde1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbn1cclxuQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiAxMDAwcHgpe1xyXG4gICAgLmNvbC0xIHt3aWR0aDogMC4zMyU7ICBtYXJnaW4tcmlnaHQ6IDEwcHg7fVxyXG4gICAgLmNvbC0yIHt3aWR0aDogNTUlOyAgbWFyZ2luLXJpZ2h0OiAxMHB4O31cclxuICAgIC5jb2wtMyB7d2lkdGg6IDQ1JTt9XHJcbiAgICBcclxuICAgIC5yb3cge2Rpc3BsYXk6IGZsZXg7fVxyXG4gIFxyXG59XHJcbiJdfQ== */</style><style>.articcleB[_ngcontent-llh-c18]{
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    cursor: pointer;
+    color: white;
+    -webkit-box-align: end;
+            align-items: flex-end;
+    display: grid;
+    height: 40vh;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: rgb(59, 59, 59);
+    border-style: solid;
+    
+}
+
+.text-artB[_ngcontent-llh-c18]{
+    color: white;
+    opacity: 0.9;
+    bottom: 0px;
+    background-color: black;
+    
+    max-width: 100%;
+    max-height: 300px;
+    overflow: hidden;
+    
+}
+
+.articcleB[_ngcontent-llh-c18]:hover{
+    -webkit-filter: brightness(0.8);
+            filter: brightness(0.8);
+    
+    background-size: auto;
+}
+
+.articcle[_ngcontent-llh-c18]{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 85%;
+    
+    
+    -webkit-box-align: end;
+    
+    
+            align-items: flex-end;
+    display: grid;
+    height: 20vh;
+    
+    margin: auto auto auto;
+    
+
+}
+
+.text-art[_ngcontent-llh-c18]{
+    font-size: 100%;
+    color: white;
+    
+    bottom: 0px;
+    
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 300px;
+    
+    
+}
+
+.artBox[_ngcontent-llh-c18]{
+    display: grid;
+    background-color: rgb(59, 59, 59);
+    
+    cursor: pointer;
+    height: 22vh;
+    
+    border: rgb(1, 105, 78);
+    border-style: solid;
+    margin-bottom: 10px;
+    margin-right: 10px ;
+}
+
+.artBox.big[_ngcontent-llh-c18]{
+    background-color: rgb(175, 0, 0);
+    height: 35vh;
+    
+    display: grid;
+    grid-template-rows: 70% 30%;
+    text-align: center;
+
+    
+}
+
+.artBox.normal[_ngcontent-llh-c18]{
+    
+        display: grid;
+        background-color: rgb(47, 56, 126);
+        grid-template-columns: 40% 60%;
+        cursor: pointer;
+        height: 22vh;
+        vertical-align: middle;
+        border: rgb(61, 66, 112);
+        border-style: solid;
+        margin-bottom: 10px;
+        margin-right: 10px ;
+        border-radius: 4px;
+    
+}
+
+.artBox[_ngcontent-llh-c18]:hover{
+    background-color: rgb(1, 105, 78);
+    background-color: rgb(25, 30, 70);
+}
+
+h4[_ngcontent-llh-c18]{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXJ0aWNsZS1ib3gvYXJ0aWNsZS1ib3guY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7SUFFSSwyQkFBMkI7SUFDM0IsNEJBQTRCO0lBQzVCLHNCQUFzQjtJQUN0QixXQUFXO0lBQ1gsZUFBZTtJQUNmLFlBQVk7SUFDWixzQkFBcUI7WUFBckIscUJBQXFCO0lBQ3JCLGFBQWE7SUFDYixZQUFZO0lBQ1osa0JBQWtCO0lBQ2xCLG1CQUFtQjtJQUNuQix1QkFBdUI7SUFDdkIsbUJBQW1COztBQUV2Qjs7QUFFQTtJQUNJLFlBQVk7SUFDWixZQUFZO0lBQ1osV0FBVztJQUNYLHVCQUF1Qjs7SUFFdkIsZUFBZTtJQUNmLGlCQUFpQjtJQUNqQixnQkFBZ0I7O0FBRXBCOztBQUNBO0lBQ0ksK0JBQXVCO1lBQXZCLHVCQUF1Qjs7SUFFdkIscUJBQXFCO0FBQ3pCOztBQUVBO0lBQ0ksMkJBQTJCO0lBQzNCLDRCQUE0QjtJQUM1QixzQkFBc0I7SUFDdEIsVUFBVTs7O0lBR1Ysc0JBQXFCOzs7WUFBckIscUJBQXFCO0lBQ3JCLGFBQWE7SUFDYixZQUFZOztJQUVaLHNCQUFzQjs7O0FBRzFCOztBQUVBO0lBQ0ksZUFBZTtJQUNmLFlBQVk7O0lBRVosV0FBVzs7SUFFWCxnQkFBZ0I7SUFDaEIsZUFBZTtJQUNmLGlCQUFpQjs7O0FBR3JCOztBQUVBO0lBQ0ksYUFBYTtJQUNiLGlDQUFpQzs7SUFFakMsZUFBZTtJQUNmLFlBQVk7O0lBRVosdUJBQXVCO0lBQ3ZCLG1CQUFtQjtJQUNuQixtQkFBbUI7SUFDbkIsbUJBQW1CO0FBQ3ZCOztBQUNBO0lBQ0ksZ0NBQWdDO0lBQ2hDLFlBQVk7O0lBRVosYUFBYTtJQUNiLDJCQUEyQjtJQUMzQixrQkFBa0I7OztBQUd0Qjs7QUFDQTs7UUFFUSxhQUFhO1FBQ2Isa0NBQWtDO1FBQ2xDLDhCQUE4QjtRQUM5QixlQUFlO1FBQ2YsWUFBWTtRQUNaLHNCQUFzQjtRQUN0Qix3QkFBd0I7UUFDeEIsbUJBQW1CO1FBQ25CLG1CQUFtQjtRQUNuQixtQkFBbUI7UUFDbkIsa0JBQWtCOztBQUUxQjs7QUFDQTtJQUNJLGlDQUFpQztJQUNqQyxpQ0FBaUM7QUFDckM7O0FBQ0E7SUFDSSxlQUFlO0lBQ2YsZ0JBQWdCO0FBQ3BCIiwiZmlsZSI6InNyYy9hcHAvYXJ0aWNsZS1ib3gvYXJ0aWNsZS1ib3guY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5hcnRpY2NsZUJ7XHJcbiAgICBcclxuICAgIGJhY2tncm91bmQtcG9zaXRpb246IGNlbnRlcjtcclxuICAgIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XHJcbiAgICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbiAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgICBjb2xvcjogd2hpdGU7XHJcbiAgICBhbGlnbi1pdGVtczogZmxleC1lbmQ7XHJcbiAgICBkaXNwbGF5OiBncmlkO1xyXG4gICAgaGVpZ2h0OiA0MHZoO1xyXG4gICAgbWFyZ2luLXJpZ2h0OiAxMHB4O1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMTBweDtcclxuICAgIGJvcmRlcjogcmdiKDU5LCA1OSwgNTkpO1xyXG4gICAgYm9yZGVyLXN0eWxlOiBzb2xpZDtcclxuICAgIFxyXG59XHJcblxyXG4udGV4dC1hcnRCe1xyXG4gICAgY29sb3I6IHdoaXRlO1xyXG4gICAgb3BhY2l0eTogMC45O1xyXG4gICAgYm90dG9tOiAwcHg7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiBibGFjaztcclxuICAgIFxyXG4gICAgbWF4LXdpZHRoOiAxMDAlO1xyXG4gICAgbWF4LWhlaWdodDogMzAwcHg7XHJcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xyXG4gICAgXHJcbn1cclxuLmFydGljY2xlQjpob3ZlcntcclxuICAgIGZpbHRlcjogYnJpZ2h0bmVzcygwLjgpO1xyXG4gICAgXHJcbiAgICBiYWNrZ3JvdW5kLXNpemU6IGF1dG87XHJcbn1cclxuXHJcbi5hcnRpY2NsZXtcclxuICAgIGJhY2tncm91bmQtcG9zaXRpb246IGNlbnRlcjtcclxuICAgIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XHJcbiAgICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xyXG4gICAgd2lkdGg6IDg1JTtcclxuICAgIFxyXG4gICAgXHJcbiAgICBhbGlnbi1pdGVtczogZmxleC1lbmQ7XHJcbiAgICBkaXNwbGF5OiBncmlkO1xyXG4gICAgaGVpZ2h0OiAyMHZoO1xyXG4gICAgXHJcbiAgICBtYXJnaW46IGF1dG8gYXV0byBhdXRvO1xyXG4gICAgXHJcblxyXG59XHJcblxyXG4udGV4dC1hcnR7XHJcbiAgICBmb250LXNpemU6IDEwMCU7XHJcbiAgICBjb2xvcjogd2hpdGU7XHJcbiAgICBcclxuICAgIGJvdHRvbTogMHB4O1xyXG4gICAgXHJcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xyXG4gICAgbWF4LXdpZHRoOiAxMDAlO1xyXG4gICAgbWF4LWhlaWdodDogMzAwcHg7XHJcbiAgICBcclxuICAgIFxyXG59XHJcblxyXG4uYXJ0Qm94e1xyXG4gICAgZGlzcGxheTogZ3JpZDtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYig1OSwgNTksIDU5KTtcclxuICAgIFxyXG4gICAgY3Vyc29yOiBwb2ludGVyO1xyXG4gICAgaGVpZ2h0OiAyMnZoO1xyXG4gICAgXHJcbiAgICBib3JkZXI6IHJnYigxLCAxMDUsIDc4KTtcclxuICAgIGJvcmRlci1zdHlsZTogc29saWQ7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAxMHB4O1xyXG4gICAgbWFyZ2luLXJpZ2h0OiAxMHB4IDtcclxufVxyXG4uYXJ0Qm94LmJpZ3tcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYigxNzUsIDAsIDApO1xyXG4gICAgaGVpZ2h0OiAzNXZoO1xyXG4gICAgXHJcbiAgICBkaXNwbGF5OiBncmlkO1xyXG4gICAgZ3JpZC10ZW1wbGF0ZS1yb3dzOiA3MCUgMzAlO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG5cclxuICAgIFxyXG59XHJcbi5hcnRCb3gubm9ybWFse1xyXG4gICAgXHJcbiAgICAgICAgZGlzcGxheTogZ3JpZDtcclxuICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoNDcsIDU2LCAxMjYpO1xyXG4gICAgICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogNDAlIDYwJTtcclxuICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgICAgICAgaGVpZ2h0OiAyMnZoO1xyXG4gICAgICAgIHZlcnRpY2FsLWFsaWduOiBtaWRkbGU7XHJcbiAgICAgICAgYm9yZGVyOiByZ2IoNjEsIDY2LCAxMTIpO1xyXG4gICAgICAgIGJvcmRlci1zdHlsZTogc29saWQ7XHJcbiAgICAgICAgbWFyZ2luLWJvdHRvbTogMTBweDtcclxuICAgICAgICBtYXJnaW4tcmlnaHQ6IDEwcHggO1xyXG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcclxuICAgIFxyXG59XHJcbi5hcnRCb3g6aG92ZXJ7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMSwgMTA1LCA3OCk7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjUsIDMwLCA3MCk7XHJcbn1cclxuaDR7XHJcbiAgICBtYXJnaW46IDAgMCAwIDA7XHJcbiAgICBwYWRkaW5nOiAwIDAgMCAwO1xyXG59XHJcbiJdfQ== */</style><style>.season[_ngcontent-llh-c19]{
+        width: 100%;
+        border-radius: 2px;
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+}
+
+div.ta[_ngcontent-llh-c19]{
+    color: black;
+    -webkit-box-align: unset;
+            align-items: unset;
+    padding-left: 20px;
+    padding-top: 0px;
+    margin-left: 10px;
+    background-color: white;
+    
+}
+
+.table-background[_ngcontent-llh-c19]{
+    position: static;
+    background-color: white;
+    opacity: 0.9;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+       
+}
+
+.tabel[_ngcontent-llh-c19]{
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+tr.noBorder[_ngcontent-llh-c19]   td[_ngcontent-llh-c19] {
+    border: 0;
+}
+
+.noBorder[_ngcontent-llh-c19]{
+    border-spacing: 0px;
+}
+
+h3[_ngcontent-llh-c19]{
+    margin-top: 0;
+    padding-top: 5px;
+    margin-bottom: 3px;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc2Vhc29uLXRhYmxlL3NlYXNvbi10YWJsZS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO1FBQ1EsV0FBVztRQUNYLGtCQUFrQjtRQUNsQixvQkFBb0I7UUFDcEIsbUJBQW1CO0FBQzNCOztBQUVBO0lBQ0ksWUFBWTtJQUNaLHdCQUFrQjtZQUFsQixrQkFBa0I7SUFDbEIsa0JBQWtCO0lBQ2xCLGdCQUFnQjtJQUNoQixpQkFBaUI7SUFDakIsdUJBQXVCOztBQUUzQjs7QUFDQTtJQUNJLGdCQUFnQjtJQUNoQix1QkFBdUI7SUFDdkIsWUFBWTtJQUNaLG9CQUFvQjtJQUNwQixrQkFBa0I7SUFDbEIsZ0JBQWdCO0lBQ2hCLFlBQVk7SUFDWixXQUFXO0lBQ1gsV0FBVzs7QUFFZjs7QUFDQTtJQUNJLGtCQUFrQjtJQUNsQixtQkFBbUI7SUFDbkIsaUJBQWlCO0lBQ2pCLGtCQUFrQjtBQUN0Qjs7QUFDQTtJQUNJLFNBQVM7QUFDYjs7QUFDQTtJQUNJLG1CQUFtQjtBQUN2Qjs7QUFDQTtJQUNJLGFBQWE7SUFDYixnQkFBZ0I7SUFDaEIsa0JBQWtCO0FBQ3RCIiwiZmlsZSI6InNyYy9hcHAvc2Vhc29uLXRhYmxlL3NlYXNvbi10YWJsZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnNlYXNvbntcclxuICAgICAgICB3aWR0aDogMTAwJTtcclxuICAgICAgICBib3JkZXItcmFkaXVzOiAycHg7XHJcbiAgICAgICAgcGFkZGluZy1ib3R0b206IDE1cHg7XHJcbiAgICAgICAgbWFyZ2luLWJvdHRvbTogMjBweDtcclxufVxyXG5cclxuZGl2LnRhe1xyXG4gICAgY29sb3I6IGJsYWNrO1xyXG4gICAgYWxpZ24taXRlbXM6IHVuc2V0O1xyXG4gICAgcGFkZGluZy1sZWZ0OiAyMHB4O1xyXG4gICAgcGFkZGluZy10b3A6IDBweDtcclxuICAgIG1hcmdpbi1sZWZ0OiAxMHB4O1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XHJcbiAgICBcclxufVxyXG4udGFibGUtYmFja2dyb3VuZHtcclxuICAgIHBvc2l0aW9uOiBzdGF0aWM7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcclxuICAgIG9wYWNpdHk6IDAuOTtcclxuICAgIHBhZGRpbmctYm90dG9tOiAxMHB4O1xyXG4gICAgcGFkZGluZy1sZWZ0OiAxMHB4O1xyXG4gICAgcGFkZGluZy10b3A6IDBweDtcclxuICAgIGhlaWdodDogMTAwJTtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgei1pbmRleDogLTE7XHJcbiAgICAgICBcclxufVxyXG4udGFiZWx7XHJcbiAgICBwYWRkaW5nLWxlZnQ6IDI1cHg7XHJcbiAgICBwYWRkaW5nLXJpZ2h0OiAyNXB4O1xyXG4gICAgbWFyZ2luLWxlZnQ6IDI1cHg7XHJcbiAgICBtYXJnaW4tcmlnaHQ6IDI1cHg7XHJcbn1cclxudHIubm9Cb3JkZXIgdGQge1xyXG4gICAgYm9yZGVyOiAwO1xyXG59XHJcbi5ub0JvcmRlcntcclxuICAgIGJvcmRlci1zcGFjaW5nOiAwcHg7XHJcbn1cclxuaDN7XHJcbiAgICBtYXJnaW4tdG9wOiAwO1xyXG4gICAgcGFkZGluZy10b3A6IDVweDtcclxuICAgIG1hcmdpbi1ib3R0b206IDNweDtcclxufVxyXG4iXX0= */</style></head>
+<body style="margin: 0 0 0; background-color: #058160;">
+  <app-root _nghost-llh-c24="" ng-version="9.0.4"><div _ngcontent-llh-c24="" class="sponsors"><div _ngcontent-llh-c24=""></div><div _ngcontent-llh-c24=""></div><img _ngcontent-llh-c24="" src="./MKS Makowianka_files/herb.png" alt="MKS Makowianka" a="" style="cursor: pointer;"></div><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><div _ngcontent-llh-c24="" role="banner" class="toolbar"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><a _ngcontent-llh-c24="" aria-label="Makowianka on facebook" target="_blank" rel="noopener" href="https://www.facebook.com/makowianka/" title="Facebook" width="30px" style="vertical-align: middle;"><svg _ngcontent-llh-c24="" id="facebook-logo" data-name="Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60"><rect _ngcontent-llh-c24="" width="100" height="100" fill="none"></rect><path _ngcontent-llh-c24="" d="M40,0H10C4.486,0,0,4.486,0,10v30c0,5.514,4.486,10,10,10h30c5.514,0,10-4.486,10-10V10C50,4.486,45.514,0,40,0z M39,17h-3 c-2.145,0-3,0.504-3,2v3h6l-1,6h-5v20h-7V28h-3v-6h3v-3c0-4.677,1.581-8,7-8c2.902,0,6,1,6,1V17z" fill="#058160"></path></svg></a><input _ngcontent-llh-c24="" type="hidden" value="main"><div _ngcontent-llh-c24="" class="spacer"></div><img _ngcontent-llh-c24="" src="./MKS Makowianka_files/logo.jpg" width="40" alt="MKS Makowianka" style="cursor: pointer; visibility: hidden;">Oficjalna strona klubu MKS Makowianka Maków Mazowiecki<!--bindings={
+  "ng-reflect-ng-if-else": "[object Object]"
+}--><!--container--></div><div _ngcontent-llh-c24="" class="zth"><div _ngcontent-llh-c24="" class="menuu"><div _ngcontent-llh-c24="" class="card-container"><div _ngcontent-llh-c24="" tabindex="0" class="card card-big"><span _ngcontent-llh-c24="">Strona Główna</span></div><div _ngcontent-llh-c24="" tabindex="0" class="card card-big"><span _ngcontent-llh-c24="">Aktualności</span></div><div _ngcontent-llh-c24="" tabindex="0" class="card card-big"><span _ngcontent-llh-c24="">Kadra</span></div><div _ngcontent-llh-c24="" tabindex="0" class="card card-big"><span _ngcontent-llh-c24="">Rozgrywki</span></div><div _ngcontent-llh-c24="" tabindex="0" class="card card-big"><span _ngcontent-llh-c24="">Galeria</span></div><div _ngcontent-llh-c24="" tabindex="0" class="card card-big"><span _ngcontent-llh-c24="">Kontakt</span></div></div></div><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><div _ngcontent-llh-c24="" class="win" style="list-style-type: none;" ng-reflect-ng-switch="main"><li _ngcontent-llh-c24="" class="mainP"><app-main-page _ngcontent-llh-c24="" _nghost-llh-c20="" ng-reflect-articles-list="[object Object],[object Object"><div _ngcontent-llh-c20="" class="row"><div _ngcontent-llh-c20="" class="col-1" style="opacity: 0.95;"></div><div _ngcontent-llh-c20="" class="col-2"><app-article-box _ngcontent-llh-c20="" type="big" _nghost-llh-c18="" ng-reflect-type="big" ng-reflect-artdata="[object Object]"><div _ngcontent-llh-c18="" class="articcleB" style="background-image: url(&quot;/assets/data/herb.png&quot;);"><span _ngcontent-llh-c18="" class="text-artB"><h2 _ngcontent-llh-c18="">Start rundy wiosennej przełożony</h2><p _ngcontent-llh-c18="">Mazowiecki Związek Piłki Nożnej poinformował, że w związku z zagrożeniem epidemiologicznym rozgrywki ligowe zostały zawieszone co najmniej do 28 kwietnia.</p></span></div><!--bindings={
+  "ng-reflect-ng-if-else": "[object Object]"
+}--><!--container--></app-article-box><app-article-box _ngcontent-llh-c20="" _nghost-llh-c18="" ng-reflect-artdata="[object Object]"><div _ngcontent-llh-c18="" class="artBox normal"><div _ngcontent-llh-c18="" ng-mouseenter="fireEvent()" class="articcle" style="background-image: url(&quot;/assets/data/2.jpg&quot;);"></div><span _ngcontent-llh-c18="" class="text-art"><h4 _ngcontent-llh-c18="">Dewastacja na stadionie</h4><p _ngcontent-llh-c18="">Miejski Klub Sportowy Makowianka jest oburzony skandaliczną sytuacją, która wydarzyła się wieczorem 7 marca 2020 roku na stadionie miejskim przy ulicy Sportowej 11.</p></span></div><!--bindings={
+  "ng-reflect-ng-if-else": "[object Object]"
+}--><!--container--></app-article-box><app-article-box _ngcontent-llh-c20="" _nghost-llh-c18="" ng-reflect-artdata="[object Object]"><div _ngcontent-llh-c18="" class="artBox normal"><div _ngcontent-llh-c18="" ng-mouseenter="fireEvent()" class="articcle" style="background-image: url(&quot;/assets/data/strona.png&quot;);"></div><span _ngcontent-llh-c18="" class="text-art"><h4 _ngcontent-llh-c18="">Trwają prace nad nową stroną klubu</h4><p _ngcontent-llh-c18="">Powstaje nowa strona naszego klubu</p></span></div><!--bindings={
+  "ng-reflect-ng-if-else": "[object Object]"
+}--><!--container--></app-article-box></div><div _ngcontent-llh-c20="" class="col-3" style="opacity: 0.95;"><app-season-table _ngcontent-llh-c20="" _nghost-llh-c19="" ng-reflect-option="nextWeek,false"><div _ngcontent-llh-c19="" class="season" style="background-color: white;"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-llh-c19=""><h3 _ngcontent-llh-c19="">Ostatni mecz</h3><table _ngcontent-llh-c19="" style="padding-left: 10px; width: 100%;"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></table><table _ngcontent-llh-c19="" style="padding-left: 10px; width: 100%;"><tr _ngcontent-llh-c19="" style="width: 100%; font-weight: bold; color: rgb(5, 129, 96);"><td _ngcontent-llh-c19="" style="padding-right: 10px; width: 45%;">Wisła II Płock</td><td _ngcontent-llh-c19="" style="width: 10%; text-align: center;"><div _ngcontent-llh-c19="">5:0</div><!--bindings={
+  "ng-reflect-ng-if-else": "[object Object]"
+}--><!--container--></td><td _ngcontent-llh-c19="" style="text-align: right; padding-left: 10px; width: 45%;">Makowianka Maków Mazowiecki</td></tr><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--></table><table _ngcontent-llh-c19="" style="padding-left: 10px; width: 100%;"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></table><table _ngcontent-llh-c19="" style="padding-left: 10px; width: 100%;"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></table><table _ngcontent-llh-c19="" style="padding-left: 10px; width: 100%;"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></table><table _ngcontent-llh-c19="" style="padding-left: 10px; width: 100%;"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></table><table _ngcontent-llh-c19="" style="padding-left: 10px; width: 100%;"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></table><table _ngcontent-llh-c19="" style="padding-left: 10px; width: 100%;"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></table><!--bindings={
+  "ng-reflect-ng-for-of": "[object Object],[object Object"
+}--><h3 _ngcontent-llh-c19="">Następna kolejka</h3><table _ngcontent-llh-c19="" style="padding-left: 10px; width: 100%;"><tr _ngcontent-llh-c19="" style="width: 100%; font-weight: normal; color: black;"><td _ngcontent-llh-c19="" style="padding-right: 10px; width: 45%;">Drukarz Warszawa</td><td _ngcontent-llh-c19="" style="width: 10%; text-align: center;">:<!--bindings={
+  "ng-reflect-ng-if-else": "[object Object]"
+}--><!--container--></td><td _ngcontent-llh-c19="" style="text-align: right; padding-left: 10px; width: 45%;">Podlasie Sokołów Podlaski</td></tr><tr _ngcontent-llh-c19="" style="width: 100%; font-weight: normal; color: black;"><td _ngcontent-llh-c19="" style="padding-right: 10px; width: 45%;">KS Łomianki</td><td _ngcontent-llh-c19="" style="width: 10%; text-align: center;">:<!--bindings={
+  "ng-reflect-ng-if-else": "[object Object]"
+}--><!--container--></td><td _ngcontent-llh-c19="" style="text-align: right; padding-left: 10px; width: 45%;">Hutnik Warszawa</td></tr><tr _ngcontent-llh-c19="" style="width: 100%; font-weight: normal; color: black;"><td _ngcontent-llh-c19="" style="padding-right: 10px; width: 45%;">Ożarowianka Ożarów Mazowiecki</td><td _ngcontent-llh-c19="" style="width: 10%; text-align: center;">:<!--bindings={
+  "ng-reflect-ng-if-else": "[object Object]"
+}--><!--container--></td><td _ngcontent-llh-c19="" style="text-align: right; padding-left: 10px; width: 45%;">Nadnarwianka Pułtusk</td></tr><tr _ngcontent-llh-c19="" style="width: 100%; font-weight: normal; color: black;"><td _ngcontent-llh-c19="" style="padding-right: 10px; width: 45%;">Mazovia Mińsk Mazowiecki</td><td _ngcontent-llh-c19="" style="width: 10%; text-align: center;">:<!--bindings={
+  "ng-reflect-ng-if-else": "[object Object]"
+}--><!--container--></td><td _ngcontent-llh-c19="" style="text-align: right; padding-left: 10px; width: 45%;">Korona Ostrołęka</td></tr><tr _ngcontent-llh-c19="" style="width: 100%; font-weight: normal; color: black;"><td _ngcontent-llh-c19="" style="padding-right: 10px; width: 45%;">Pogoń II Siedlce</td><td _ngcontent-llh-c19="" style="width: 10%; text-align: center;">:<!--bindings={
+  "ng-reflect-ng-if-else": "[object Object]"
+}--><!--container--></td><td _ngcontent-llh-c19="" style="text-align: right; padding-left: 10px; width: 45%;">Świt Staroźreby</td></tr><tr _ngcontent-llh-c19="" style="width: 100%; font-weight: normal; color: black;"><td _ngcontent-llh-c19="" style="padding-right: 10px; width: 45%;">Wkra Żuromin</td><td _ngcontent-llh-c19="" style="width: 10%; text-align: center;">:<!--bindings={
+  "ng-reflect-ng-if-else": "[object Object]"
+}--><!--container--></td><td _ngcontent-llh-c19="" style="text-align: right; padding-left: 10px; width: 45%;">Ząbkovia Ząbki</td></tr><tr _ngcontent-llh-c19="" style="width: 100%; font-weight: normal; color: rgb(5, 129, 96);"><td _ngcontent-llh-c19="" style="padding-right: 10px; width: 45%;">Huragan Wołomin</td><td _ngcontent-llh-c19="" style="width: 10%; text-align: center;">:<!--bindings={
+  "ng-reflect-ng-if-else": "[object Object]"
+}--><!--container--></td><td _ngcontent-llh-c19="" style="text-align: right; padding-left: 10px; width: 45%;">Makowianka Maków Mazowiecki</td></tr><tr _ngcontent-llh-c19="" style="width: 100%; font-weight: normal; color: black;"><td _ngcontent-llh-c19="" style="padding-right: 10px; width: 45%;">Wisła II Płock</td><td _ngcontent-llh-c19="" style="width: 10%; text-align: center;">:<!--bindings={
+  "ng-reflect-ng-if-else": "[object Object]"
+}--><!--container--></td><td _ngcontent-llh-c19="" style="text-align: right; padding-left: 10px; width: 45%;">MKS Przasnysz</td></tr><!--bindings={
+  "ng-reflect-ng-for-of": "[object Object],[object Object"
+}--></table></div><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--></div></app-season-table><app-season-table _ngcontent-llh-c20="" _nghost-llh-c19="" ng-reflect-option="onlyTable,false"><div _ngcontent-llh-c19="" class="season" style="background-color: white;"><div _ngcontent-llh-c19=""><h3 _ngcontent-llh-c19="">Tabela ligowa</h3><table _ngcontent-llh-c19="" style="width: 100%;"><td _ngcontent-llh-c19="" style="width: 5%; text-align: right;"></td><td _ngcontent-llh-c19="" style="text-align: left; width: 60%;">Drużyna</td><td _ngcontent-llh-c19="" style="width: 20%;">Punkty</td><td _ngcontent-llh-c19="" style="width: 20%;">Bilans</td><tr _ngcontent-llh-c19="" data-index="0" style="color: black; font-weight: normal;"><td _ngcontent-llh-c19="" style="width: 5%; text-align: right;">1.</td><td _ngcontent-llh-c19="" style="text-align: left; width: 60%;">Drukarz Warszawa</td><td _ngcontent-llh-c19="" style="width: 20%;">35</td><td _ngcontent-llh-c19="" style="width: 20%;">28:10</td></tr><tr _ngcontent-llh-c19="" data-index="1" style="color: black; font-weight: normal;"><td _ngcontent-llh-c19="" style="width: 5%; text-align: right;">2.</td><td _ngcontent-llh-c19="" style="text-align: left; width: 60%;">Huragan Wołomin</td><td _ngcontent-llh-c19="" style="width: 20%;">32</td><td _ngcontent-llh-c19="" style="width: 20%;">35:13</td></tr><tr _ngcontent-llh-c19="" data-index="2" style="color: black; font-weight: normal;"><td _ngcontent-llh-c19="" style="width: 5%; text-align: right;">3.</td><td _ngcontent-llh-c19="" style="text-align: left; width: 60%;">Hutnik Warszawa</td><td _ngcontent-llh-c19="" style="width: 20%;">31</td><td _ngcontent-llh-c19="" style="width: 20%;">39:22</td></tr><tr _ngcontent-llh-c19="" data-index="3" style="color: black; font-weight: normal;"><td _ngcontent-llh-c19="" style="width: 5%; text-align: right;">4.</td><td _ngcontent-llh-c19="" style="text-align: left; width: 60%;">Mazovia Mińsk Mazowiecki</td><td _ngcontent-llh-c19="" style="width: 20%;">29</td><td _ngcontent-llh-c19="" style="width: 20%;">41:22</td></tr><tr _ngcontent-llh-c19="" data-index="4" style="color: black; font-weight: normal;"><td _ngcontent-llh-c19="" style="width: 5%; text-align: right;">5.</td><td _ngcontent-llh-c19="" style="text-align: left; width: 60%;">KS Łomianki</td><td _ngcontent-llh-c19="" style="width: 20%;">29</td><td _ngcontent-llh-c19="" style="width: 20%;">29:18</td></tr><tr _ngcontent-llh-c19="" data-index="5" style="color: black; font-weight: normal;"><td _ngcontent-llh-c19="" style="width: 5%; text-align: right;">6.</td><td _ngcontent-llh-c19="" style="text-align: left; width: 60%;">MKS Przasnysz</td><td _ngcontent-llh-c19="" style="width: 20%;">28</td><td _ngcontent-llh-c19="" style="width: 20%;">33:10</td></tr><tr _ngcontent-llh-c19="" data-index="6" style="color: black; font-weight: normal;"><td _ngcontent-llh-c19="" style="width: 5%; text-align: right;">7.</td><td _ngcontent-llh-c19="" style="text-align: left; width: 60%;">Ząbkovia Ząbki</td><td _ngcontent-llh-c19="" style="width: 20%;">26</td><td _ngcontent-llh-c19="" style="width: 20%;">39:20</td></tr><tr _ngcontent-llh-c19="" data-index="7" style="color: black; font-weight: normal;"><td _ngcontent-llh-c19="" style="width: 5%; text-align: right;">8.</td><td _ngcontent-llh-c19="" style="text-align: left; width: 60%;">Pogoń II Siedlce</td><td _ngcontent-llh-c19="" style="width: 20%;">24</td><td _ngcontent-llh-c19="" style="width: 20%;">23:19</td></tr><tr _ngcontent-llh-c19="" data-index="8" style="color: black; font-weight: normal;"><td _ngcontent-llh-c19="" style="width: 5%; text-align: right;">9.</td><td _ngcontent-llh-c19="" style="text-align: left; width: 60%;">Wisła II Płock</td><td _ngcontent-llh-c19="" style="width: 20%;">19</td><td _ngcontent-llh-c19="" style="width: 20%;">27:25</td></tr><tr _ngcontent-llh-c19="" data-index="9" style="color: rgb(5, 129, 96); font-weight: bold;"><td _ngcontent-llh-c19="" style="width: 5%; text-align: right;">10.</td><td _ngcontent-llh-c19="" style="text-align: left; width: 60%;">Makowianka Maków Mazowiecki</td><td _ngcontent-llh-c19="" style="width: 20%;">17</td><td _ngcontent-llh-c19="" style="width: 20%;">26:39</td></tr><tr _ngcontent-llh-c19="" data-index="10" style="color: black; font-weight: normal;"><td _ngcontent-llh-c19="" style="width: 5%; text-align: right;">11.</td><td _ngcontent-llh-c19="" style="text-align: left; width: 60%;">Wkra Żuromin</td><td _ngcontent-llh-c19="" style="width: 20%;">15</td><td _ngcontent-llh-c19="" style="width: 20%;">26:40</td></tr><tr _ngcontent-llh-c19="" data-index="11" style="color: black; font-weight: normal;"><td _ngcontent-llh-c19="" style="width: 5%; text-align: right;">12.</td><td _ngcontent-llh-c19="" style="text-align: left; width: 60%;">Nadnarwianka Pułtusk</td><td _ngcontent-llh-c19="" style="width: 20%;">12</td><td _ngcontent-llh-c19="" style="width: 20%;">16:28</td></tr><tr _ngcontent-llh-c19="" data-index="12" style="color: black; font-weight: normal;"><td _ngcontent-llh-c19="" style="width: 5%; text-align: right;">13.</td><td _ngcontent-llh-c19="" style="text-align: left; width: 60%;">Korona Ostrołęka</td><td _ngcontent-llh-c19="" style="width: 20%;">11</td><td _ngcontent-llh-c19="" style="width: 20%;">13:29</td></tr><tr _ngcontent-llh-c19="" data-index="13" style="color: black; font-weight: normal;"><td _ngcontent-llh-c19="" style="width: 5%; text-align: right;">14.</td><td _ngcontent-llh-c19="" style="text-align: left; width: 60%;">Świt Staroźreby</td><td _ngcontent-llh-c19="" style="width: 20%;">10</td><td _ngcontent-llh-c19="" style="width: 20%;">15:29</td></tr><tr _ngcontent-llh-c19="" data-index="14" style="color: black; font-weight: normal;"><td _ngcontent-llh-c19="" style="width: 5%; text-align: right;">15.</td><td _ngcontent-llh-c19="" style="text-align: left; width: 60%;">Podlasie Sokołów Podlaski</td><td _ngcontent-llh-c19="" style="width: 20%;">10</td><td _ngcontent-llh-c19="" style="width: 20%;">16:33</td></tr><tr _ngcontent-llh-c19="" data-index="15" style="color: black; font-weight: normal;"><td _ngcontent-llh-c19="" style="width: 5%; text-align: right;">16.</td><td _ngcontent-llh-c19="" style="text-align: left; width: 60%;">Ożarowianka Ożarów Mazowiecki</td><td _ngcontent-llh-c19="" style="width: 20%;">3</td><td _ngcontent-llh-c19="" style="width: 20%;">11:60</td></tr><!--bindings={
+  "ng-reflect-ng-for-of": "[object Object],[object Object"
+}--></table></div><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></app-season-table></div></div></app-main-page></li><!--container--><!--bindings={
+  "ng-reflect-ng-switch-case": "news"
+}--><!--bindings={
+  "ng-reflect-ng-switch-case": "team"
+}--><!--bindings={
+  "ng-reflect-ng-switch-case": "league"
+}--><!--bindings={
+  "ng-reflect-ng-switch-case": "gallery"
+}--><!--bindings={
+  "ng-reflect-ng-switch-case": "contact"
+}--><!--bindings={
+  "ng-reflect-ng-switch-case": "article"
+}--></div></div></app-root>
+<script src="./MKS Makowianka_files/runtime.js.pobrane" type="module"></script><script src="./MKS Makowianka_files/polyfills.js.pobrane" type="module"></script><script src="./MKS Makowianka_files/styles.js.pobrane" type="module"></script><script src="./MKS Makowianka_files/vendor.js.pobrane" type="module"></script><script src="./MKS Makowianka_files/main.js.pobrane" type="module"></script>
+
+</body></html>

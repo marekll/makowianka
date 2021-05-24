@@ -1,0 +1,27 @@
+W czwartej kolejce IV ligi Makowianka przegrała z Mławianką Mława.
+<input type="hidden" #pic_selection>
+<input type="hidden" #pic_show value='false'>
+<br>Z przebiegu meczu nie zasługiwaliśmy na porażkę. Prowadziliśmy różnicą dwóch bramek, lecz daliśmy wydrzeć sobie zwycięstwo w ostatniej akcji meczu. 
+<p>
+<br>MKS Makowianka - Mławianka Mława 2-3 (1-0)
+<p>
+<br>Bramki: Kacper Matusiak 38', Jakub Tyska 46' - Krzysztof Dąbkowski 54'(k), Maciej Rogalski 77', Mateusz Stryjewski 90+4'
+<p>
+<a href="/assets/data/mlawa1.jpg" target="_blank">
+<img width="49%" src="/assets/data/mlawa1.jpg">
+</a>
+<a href="/assets/data/mlawa2.jpg" target="_blank">
+<img width="49%" src="/assets/data/mlawa2.jpg">
+</a>
+<a href="/assets/data/mlawa3.jpg" target="_blank">
+<img width="49%" src="/assets/data/mlawa3.jpg">
+</a>
+<a href="/assets/data/mlawa4.jpg" target="_blank">
+<img width="49%" src="/assets/data/mlawa4.jpg">
+</a>
+<a href="/assets/data/mlawa5.jpg" target="_blank">
+<img width="49%" src="/assets/data/mlawa5.jpg">
+</a>
+<a href="/assets/data/mlawa6.jpg" target="_blank">
+<img width="49%" src="/assets/data/mlawa6.jpg">
+</a>

@@ -1,0 +1,18 @@
+<div class="artBox normal" (click)="fireEvent()"  *ngIf = "type=='normal'; else elseBlock" >
+    <div class="articcle" ng-mouseenter = "fireEvent()"
+    [style.background-image]= "'url(/assets/data/'+artdata.miniature+')'" 
+    >
+    
+</div>
+<span class="text-art"><h4>{{artdata.tittle}}</h4><p>{{artdata.mtext}}</p></span>
+
+</div>
+
+<ng-template #elseBlock><div class="articcleB" 
+[style.background-image]= "'url(/assets/data/'+artdata.miniature+')'" 
+(click)="fireEvent()" >
+<span class="text-artB" ><h2>{{artdata.tittle}}</h2><p>{{artdata.mtext}}</p></span>
+
+
+</div>
+</ng-template>

@@ -1,0 +1,12 @@
+
+[class*="col-"]{
+    width: 100%;
+}
+@media only screen and (min-width: 1000px){
+    .col-1 {width: 0.33%;  margin-right: 10px;}
+    .col-2 {width: 55%;  margin-right: 10px;}
+    .col-3 {width: 45%;}
+    
+    .row {display: flex;}
+  
+}

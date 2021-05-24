@@ -1,0 +1,65 @@
+<div class="season" style="background-color: white;">
+    <div *ngIf = "showTable()">
+        <h3>Tabela ligowa</h3>
+        <table style="width: 100%; ">
+            <td style="width: 5%; text-align: right;"></td><td style="text-align: left; width:55%;">Drużyna</td><td style="width: 15%; ">Punkty</td ><td style="width: 15%; ">Mecze</td ><td style="width: 15%;">Bilans</td>
+
+            <tr *ngFor = "let team of table; let i = index" [attr.data-index]="i" 
+            [style.color] ="team.name == 'Makowianka Maków Mazowiecki' ? '#058160' : 'black'" 
+            [style.font-weight] ="team.name == 'Makowianka Maków Mazowiecki' ? 'bold' : 'normal'"  >
+                <td style="width: 5%; text-align: right;">{{i+1}}.</td><td style="text-align: left; width:55%;">{{team.name}}</td><td style="width: 15%; ">{{team.points}}</td ><td style="width: 15%; ">{{team.matches_played}}</td ><td style="width: 15%;">{{team.goalsScored}}:{{team.goalsReceived}}</td>
+            </tr>
+        </table>
+    </div>
+    <div *ngIf = "showEveryWeeks()">
+        <table style="padding-left: 10px; width: 100%;" *ngFor = "let week of weeks.weeks" [style.visibility]="week.number==16 || !showOnlyLast() ? 'visible' : 'hidden'">
+            <h3>Kolejka {{week.number}}</h3>
+            <tr  [style.font-weight]="match.wasPlayed ? 'bold' : 'normal'" 
+            [style.color]="match.homeName == 'Makowianka Maków Mazowiecki' || match.awayName == 'Makowianka Maków Mazowiecki' ? '#058160' : 'black'"
+              
+            *ngFor = "let match of week.matches" >
+                <td style="padding-right: 10px; width: 45%;">{{match.homeName}}</td>   
+                <td style="width: 10%; text-align: center;" >
+                    <div *ngIf = "match.wasPlayed; else elseBlock">{{match.homeGoals}}:{{match.awayGoals}}</div> 
+                    <ng-template #elseBlock style="width: 10%; text-align: center;">:</ng-template>
+                </td> 
+                <td  style="text-align: right; padding-left: 10px;width: 45%;">{{match.awayName}}</td>
+            </tr>
+        </table>
+    </div>
+    <div *ngIf = "showOnlyLast()">
+        <div *ngIf = "weeks.lastWeek != null">
+            <h3>Ostatni mecz</h3>
+            <table style="padding-left: 10px; width: 100%;" *ngFor = "let match of weeks.lastWeek.matches">
+            
+                <tr  [style.font-weight]="match.wasPlayed ? 'bold' : 'normal'" 
+                [style.color]="match.homeName == 'Makowianka Maków Mazowiecki' || match.awayName == 'Makowianka Maków Mazowiecki' ? '#058160' : 'black'" 
+                style="width: 100%;" 
+                *ngIf = "match.homeName == 'Makowianka Maków Mazowiecki' || match.awayName == 'Makowianka Maków Mazowiecki'">
+                    <td style="padding-right: 10px; width: 45%;">{{match.homeName}}</td>   
+                    <td style="width: 10%; text-align: center;" >
+                        <div *ngIf = "match.wasPlayed; else elseBlock">{{match.homeGoals}}:{{match.awayGoals}}</div> 
+                        <ng-template #elseBlock style="width: 10%; text-align: center;">:</ng-template>
+                    </td>
+                    <td  style="text-align: right; padding-left: 10px;width: 45%;">{{match.awayName}}</td>
+                </tr>  
+            </table>
+        </div>
+        <div *ngIf = "weeks.nextWeek != null">
+            <h3>Następna kolejka</h3>
+            <table style="padding-left: 10px; width: 100%;">
+                <tr  [style.font-weight]="match.wasPlayed ? 'bold' : 'normal'" 
+                [style.color]="match.homeName == 'Makowianka Maków Mazowiecki' || match.awayName == 'Makowianka Maków Mazowiecki' ? '#058160' : 'black'" 
+                *ngFor = "let match of weeks.nextWeek.matches" style="width: 100%;">
+                    <td style="padding-right: 10px; width: 45%;">{{match.homeName}}</td>   
+                    <td style="width: 10%; text-align: center;" >
+                        <div *ngIf = "match.wasPlayed; else elseBlock">{{match.homeGoals}}:{{match.awayGoals}}</div> 
+                        <ng-template #elseBlock style="width: 10%; text-align: center;">:</ng-template>
+                    </td>
+                    <td  style="text-align: right; padding-left: 10px;width: 45%;">{{match.awayName}}</td>
+                </tr>
+            
+            </table>
+        </div>
+    </div>
+</div>

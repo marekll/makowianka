@@ -1,0 +1,32 @@
+
+.news{
+    
+    
+    align-items: flex-start;
+    display: inline-block;
+    object-position: left;
+    vertical-align: 0%;
+    color: black;
+    text-align: justify;
+    width: 100%;
+    height: 100%;
+    
+    
+    background-color: rgb(255,255,255, 0.9);
+    border-radius: 2px;
+}
+
+.TextWrap{
+    float: right;
+    
+}
+@media only screen and (min-width: 700px){
+    
+    .TextWrap{
+        float: right;
+        margin: 10px;
+    }
+    .news{
+        padding: 10px 10px 10px 10px;
+    }
+}

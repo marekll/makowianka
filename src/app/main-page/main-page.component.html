@@ -1,0 +1,11 @@
+<div class="row" >
+    <div class = "col-1" style="opacity: 0.95;"></div>
+    <div class = "col-2" >
+        <app-article-box [parentData]="articlesList[0]" type="big" (childEvent)="fireEvent(0, 'article');"></app-article-box>
+        <app-article-box [parentData]="articlesList[1]" (childEvent)="fireEvent(1, 'article');"></app-article-box>
+        <app-article-box [parentData]="articlesList[2]" (childEvent)="fireEvent(2, 'article');"></app-article-box>
+    </div>
+    <div class = "col-3" style="opacity: 0.95;"><app-season-table [parentData] = "['nextWeek', mobile]"></app-season-table><app-season-table [parentData] = "['onlyTable', mobile]"></app-season-table></div>
+</div>
+    
+

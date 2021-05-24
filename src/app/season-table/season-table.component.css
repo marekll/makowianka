@@ -1,0 +1,45 @@
+.season{
+        width: 100%;
+        border-radius: 2px;
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+}
+
+div.ta{
+    color: black;
+    align-items: unset;
+    padding-left: 20px;
+    padding-top: 0px;
+    margin-left: 10px;
+    background-color: white;
+    
+}
+.table-background{
+    position: static;
+    background-color: white;
+    opacity: 0.9;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+       
+}
+.tabel{
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+tr.noBorder td {
+    border: 0;
+}
+.noBorder{
+    border-spacing: 0px;
+}
+h3{
+    margin-top: 0;
+    padding-top: 5px;
+    margin-bottom: 3px;
+}
